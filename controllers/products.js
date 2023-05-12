@@ -1,8 +1,4 @@
 const products = [];
-const rootDir=require('../util/path');
-
-
-
 
 exports.getAddProduct = (req, res, next) => {
     res.render('add-product', {
